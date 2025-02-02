@@ -101,27 +101,6 @@
     <li>The output <code>slow_clk</code> is defined to be low when the counter is less than 125,000 and high otherwise, creating a 50% duty cycle square wave. The resulting frequency is approximately 100 MHz / 250,000 ≈ 400 Hz.</li>
   </ul>
 
-  <h3>4. my_dff</h3>
-  <p><strong>Purpose:</strong><br>
-    A simple D flip-flop used within the button debouncing chain to sample and hold the push button input.
-  </p>
-
-  <p><strong>Inputs:</strong></p>
-  <ul>
-    <li><strong>DFF_CLOCK (wire):</strong> Clock signal for the D flip-flop.</li>
-    <li><strong>D (wire):</strong> Data input.</li>
-  </ul>
-
-  <p><strong>Output:</strong></p>
-  <ul>
-    <li><strong>Q (reg):</strong> The stored data output that changes on the rising edge of <code>DFF_CLOCK</code>.</li>
-  </ul>
-
-  <p><strong>Operation:</strong></p>
-  <ul>
-    <li>On every rising edge of <code>DFF_CLOCK</code>, the value of <code>D</code> is captured and assigned to <code>Q</code>.</li>
-  </ul>
-</body>
 # PWM and Button Synronizer Design & Constrain File 
 ![image](https://github.com/user-attachments/assets/6f7a02ed-e770-4a39-b373-15377caba0e5)
 
