@@ -1,4 +1,4 @@
-# Pulse-Width-Modulation-Design
+## Pulse-Width-Modulation-Design
 <body>
   <h1>PWM Generator with Button Synchronization</h1>
 
@@ -101,14 +101,14 @@
     <li>The output <code>slow_clk</code> is defined to be low when the counter is less than 125,000 and high otherwise, creating a 50% duty cycle square wave. The resulting frequency is approximately 100 MHz / 250,000 ≈ 400 Hz.</li>
   </ul>
 
-# PWM and Button Synronizer Design & Constrain File 
+## PWM and Button Synronizer Design & Constrain File 
 ![image](https://github.com/user-attachments/assets/6f7a02ed-e770-4a39-b373-15377caba0e5)
 
-# Pulse-Width Modulation Test Bench Design & Results
+## Pulse-Width Modulation Test Bench Design & Results
 ![image](https://github.com/user-attachments/assets/7e619e83-8046-40ef-9c44-bf155865b6c7)
 
 
-# PWM and Button Synronizer Simulation Results 
+## PWM and Button Synronizer Simulation Results 
 ![image](https://github.com/user-attachments/assets/8bcc5dea-5372-4369-b7fd-70803c45f930)
 
 
